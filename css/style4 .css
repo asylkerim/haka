@@ -1,0 +1,133 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+#hotel {
+    padding: 50px 0;
+}
+
+.sec_hotel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec_h_r {
+    background-image: url('../img/Rectangle\ 24.png');
+    height: 640px;
+    width: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec_h_p {
+    width: 500px;
+    padding: 10px 0;
+    text-align: start;
+    padding: 30px 0;
+    font-size: 12px;
+}
+
+.sec_h_img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        'img1 img2'
+        'img3 img4';
+    grid-gap: 10px;
+}
+
+.sec_img {
+    height: 150px;
+    width: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec_h_imges1 {
+    grid-area: img1;
+    background-image: url('../img/Rectangle\ 25.png');
+}
+
+.sec_h_imges2 {
+    grid-area: img2;
+    background-image: url('../img/Rectangle\ 26.png');
+}
+
+.sec_h_imges3 {
+    grid-area: img3;
+    background-image: url('../img/Rectangle\ 31.png');
+}
+.sec_h_imges4 {
+    grid-area: img4;
+    background-image: url('../img/Rectangle\ 32.png');
+}
+/* section* 2 */
+.section__price__text {
+    margin: 0px 0;
+    width: 30%;
+}
+
+.section__price__text i {
+    margin-left: 50px;
+}
+
+.info_text {
+    padding: 45px 0;
+}
+
+.info_text p {
+    margin: 20px 0;
+}
+
+.section__price {
+    display: flex;
+}
+
+.osh {
+    padding: 210px 0;
+    width: 30%;
+
+}
+
+.osh p {
+    margin: 20px 0;
+}
+
+.inflatable {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.indigo {
+    width: 30%;
+    position: relative;
+}
+
+.img_inf1 {
+    top: 30%;
+    position: absolute;
+    width: 73px;
+    height: 108px;
+    background-image: url('../img/kisspng-flight-hot-air-balloon-computerФІМП-icons-aerostat-5afe08ad4b2f92\ 1\ \(1\).png');
+}
+
+.img_inf2 {
+    bottom: 10%;
+    left: 20%;
+    position: absolute;
+    width: 73px;
+    height: 108px;
+    background-image: url('../img/kisspng-flight-hot-air-balloon-computerФІМП-icons-aerostat-5afe08ad4b2f92\ 1\ \(1\).png');
+}
+
+.img_inf3 {
+    right: 0;
+    position: absolute;
+    width: 206px;
+    height: 305px;
+    background-image: url('../img/kisspng-flight-hot-air-balloon-computerФІМП-icons-aerostat-5afe08ad4b2f92\ 1\ \(1\).png');
+}
